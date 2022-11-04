@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <link rel="icon" href="img/IMG-20220822-WA0033-removebg-preview.png">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Undangan</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/6.2.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css" />
+   </head>
+  <body>
+    <script>
+        function cetak() {
+          var nama = document.getElementById("nama").value ;
+          document.getElementById("demo").innerHTML = "<b>" + nama +"</b>";
+        }
+      </script>
+
+    <div class="container my-5 pt-5">
+    <div class="col-sm-6">
+        <div class="text-center">
+        <img src="img/pngegg (1).png" width="100" height="100">
+        </div>
+    </div>
+    <div class="col-sm-6 my-2 pt-2">
+        <marquee><h1 class="text-center text-success" style="font-family: Matura MT Script Capitals; font-style: italic;">Undangan Ulang Tahun </h1></marquee></marquee>
+        <div class="alert"  style="background-color: #008a3e;">
+        <div class="input-group">
+            <input type="text" id="nama" class="form-control" placeholder="Nama Kamu Siapa Teman. ?">
+            <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal" onclick="cetak()">
+                Kirim
+              </button>
+          </div>
+        </div>
+    </div>
+    </div>
+
+    <!-- pop up -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg">
+          <div class="modal-content">
+            <div class="modal-header" style="background-color: #004d0d;">
+              <p class="text-white modal-title fs-5" id="exampleModalLabel"><b><i></i></b></p>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body" style="background-image: url('img/Untitled-1.png'); font-family: Arial Narrow;">
+                <div class="container">
+                    <div class="text-center">
+                        <img src="img/Jungle Birthday - Dibuat dengan PosterMyWall.jpg" class="rounded mb-3" alt="..." width="200" height="200">
+                      </div>
+                      <div class="card text-bg-success">
+                        <div class="card-body" style=font-size:small;>
+                           <p>Hai Temanku, <label id="demo"></label></p>
+                           <p>Datang Dan Ramaikan Acara ULANG TAHUNKU Yang Ke-2 dan SYUKURAN BAPTISKU Ya Teman..</p>
+                           <p><i>Hari : Senin, 28 November 2022</p>
+                           <p>Jam  : 16.00 WIT - Selesai</p>
+                           <p>Di Tempat : Kel. KAKISINA ( Gunung Nona)</i></p>
+                           <p>Tiada Kesan Tanpa Kehadiramu Teman. </p> 
+                           <p align="right"><b><i>Salam Hangat.</i></b></p>
+                           <p align="right"><b>Cyrilo &#128521;</b> 
+                        </div>
+                      </div>
+                    </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- end -->
+
+      <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.min.js" integrity="sha384-IDwe1+LCz02ROU9k972gdyvl+AESN10+x7tBKgc9I5HFtuNz0wWnPclzo6p9vxnk" crossorigin="anonymous"></script>
+  </body>
+</html>
